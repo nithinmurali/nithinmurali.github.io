@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="keywords" content="Ranveer Aggarwal, ranveer, Ranveer, Aggarwal, aggarwal, IIT, iit, IITB, CSE, IIT Bombay, github, developer iit">
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="http://ranveeraggarwal.github.io/stylesheets/styles.css">
+    <link rel="shortcut icon" href="{{site.url}}/images/favicon.png" type="image/png">
+    <style>
+      header { zoom: 1.2; }
+      header h1 { margin-bottom: 5px; }
+      header h1 a { color: #494949; font-weight: bold; }
+      header h3 { margin-top: 20px; margin-bottom: 5px; }
+      header p.view { margin-bottom: 5px; }
+      header p.view small { padding-top: 2px; }
+      header ul {
+        zoom: 0.7;
+        margin-top: 25px;
+      }
+      section p { margin-top: 10px; }
+      section h1 { margin-bottom: 15px; }
+      section h2 { margin-bottom: 10px; }
+      section h2 { margin-bottom: 10px; }
+      section h2.view { margin-bottom: 5px; }
+      section h2.view small { padding-top: 8px; }
+      footer { bottom: 20px; }
+      footer p { margin-bottom: 5px; }
+      .half-width {
+        float: left;
+        width: 200px;
+        list-style: none;
+        padding: 5px;
+        margin: 7px;
+        margin-bottom: 10px;
+      }
+      .half-width h4 {
+        margin-bottom: 5px;
+      }
+      .half-width ul {
+        padding-left: 0;
+      }
+      .half-width ul li {
+        list-style: inside;
+        font-size: 15px;
+      }
+      .clear-fix {
+        clear: both;
+      }
+      @media (max-width: 960px) {
+          header p small:before{
+            content:"\a";
+          white-space: pre;
+        }
+      }
+      
+    </style>
+    <script src="https://github.com/themes/minimal/javascripts/scale.fix.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://ranveeraggarwal.github.io/javascripts/jquery.cycle.all.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=436367376492046";
+      fjs.parentNode.insertBefore(js, fjs);
+    }
+    (document, 'script', 'facebook-jssdk'));
+  </script>
+  <!--To add: disqus-->
+    <div class="wrapper">
+      <header>
+        <h1><a href="/">Ranveer Aggarwal</a></h1>
+        <!--p class="view"><a href="http://ranveeraggarwal.github.io/about/">Self Persona<small>About Me</small></a></p-->
+        <p class="view"><a href="http://ranveeraggarwal.github.io/projects/">Projects<small>Software developed over semesters</small></a></p>
+        <p class="view"><a href="http://ranveeraggarwal.github.io/hacks/">Hacks<small>Small apps developed over weekends</small></a></p>
+        <p class="view"><a href="http://ranveeraggarwal.github.io/minituts/">Mini Tutorials<small>Ah! So that is how it works!</small></a></p>
+        <p class="view"><a href="http://ranveeraggarwal.github.io/docs/cv.pdf">Cirriculum Vitae<small>If you'd like to work with me</small></a></p>
+        <!--p class="view"><a href="http://ranveeraggarwal.github.io/acads">Academics<small>Projects, courses, etc.</small></a></p-->
+
+        {% if page.repository_url %}
+          <h3>More Info</h3>
+          <ul>
+            {% if page.zip_url %}
+              <li><a href="{{ page.zip_url }}">Download <strong>ZIP File</strong></a></li>
+            {% endif %}
+            {% if page.issue_url %}
+              <li><a href="{{ page.issue_url }}">Report<strong>An Issue</strong></a></li>
+            {% endif %}
+            {% if page.repository_url %}
+              <li><a href="{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
+            {% endif %}
+          </ul>
+        {% endif %}
+
+        {% if page.codeveloper %}
+        <p><small>Co-Developed by: {{ page.codeveloper }}</small></p>
+        {% endif %}
+        <br/>
+        <h3>Follow Me On</h3>
+        <p class="view"><a href="https://github.com/ranveeraggarwal" target="tab">GitHub</a></li>
+        <p class="view"><a href="https://twitter.com/ranveeraggarwal" target="tab">Twitter</a></li>
+        <p class="view"><a href="https://facebook.com/ranveeraggarwal" target="tab">Facebook</a></li> 
+        
+      </header>
+      <section id="main">
+        {{ content }}
+      </section>
+      <footer>
+        <a href="http://stackexchange.com/users/2637544">
+<img src="http://stackexchange.com/users/flair/2637544.png" width="208" height="58" alt="profile for Ranveer on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Ranveer on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47605266-1', 'ranveeraggarwal.github.io');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+</html>
