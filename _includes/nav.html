@@ -1,0 +1,23 @@
+<div class="banner"></div>
+<nav class="navbar navbar-default navbar-static-top cl-effect-1">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.baseurl }}" style="color:#000000; font-weight:600;">Ranveer</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="/index.html">About</a></li>
+        <!--li class="{% if page.url == '/experience.html' %}active{% endif %}"><a href="/experience.html">Experience</a></li-->
+        <li class="{% if page.url contains '/projects' %}active{% endif %}"><a href="/projects.html">Projects</a></li>
+        <li class="{% if page.url contains '/blog' %}active{% endif %}"><a href="/blog/">Blog</a></li>
+        <li class="{% if page.url contains '/lists' %}active{% endif %}"><a href="/lists.html">My Lists</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
