@@ -1,0 +1,39 @@
+body{
+			 background-color:black;}
+			div{
+				border:0px solid white;
+				padding:1px;}
+				
+				.frame{
+					background-color:black;
+					padding:10px;
+					margin:auto;
+					border-radius:0px;}
+				.box{
+					position:relative;
+					border-radius:0px;
+					height:140px;
+					width:140px;
+					margin:5px;
+					display:inline;
+					float:left;
+					padding:0px;	
+					cursor:pointer;
+					background-image:url('http://cdn.lightgalleries.net/4bd5ec0079abc/images/AB_rhinoceros_mouse_c-2.jpg');
+					background-size:565px;
+					background-position:center;}
+					.caption{
+						filter:inherit;
+						position:absolute;
+						bottom:0px;
+						border:0px;
+						border-top:0px solid white;
+						height:50px;
+						background-color:black;
+						opacity:0.8;
+						
+						display:none;}
+.unselected{
+	opacity:0.4;}
+						
+
