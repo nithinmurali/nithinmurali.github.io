@@ -3,14 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-
-	<title>Clean - One Page Personal Portfolio</title>
-
+    <meta name="description" content="Nithin M's personal website">
+    <meta name="author" content="Nithin M">
+    <meta name="keywords" content="Nithin Murali, Nithin, Nithin M Computer Science, Computer Science, Software, Engineer, Nithin, Murali">
+    <title>Nithin Murali</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+	
 	<!-- CSS -->
 	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,900,900italic,300,100,100italic' rel='stylesheet' type='text/css'>
+
 	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
 	<!-- <link href="assets/css/animate.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="assets/css/animate.min.css">
@@ -18,8 +21,12 @@
 	<!-- Custom styles CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
     
+        
+    <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/modernizr.custom.js"></script>
-       
+     <script>
+              new WOW({offset: 100, mobile: false}).init();
+	</script>
 </head>
 <body>
 
@@ -41,47 +48,50 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-xs-12 text-center">
-                                <h1 class="title-text">Devin Soni</h1>
+                                <h1 class="title-text"></h1>
                                 <div class="icons">
-                                    <h2>
-                                        <span class="fa-stack">
-                                             <span style="color:#FAFAFA" class="fa fa-circle fa-stack-2x fa-inverse"></span>
-                                             <a href="mailto:devinsoni1010@gmail.com" class="fa fa-envelope fa-stack-1x "></a>
-                                        </span>
-                                        <span class="fa-stack">
-                                             <span style="color:#FAFAFA" class="fa fa-circle fa-stack-2x fa-inverse"></span>
-                                             <a href="https://github.com/d-soni" class="fa fa-github-alt fa-stack-1x "></a>
-                                        </span>
-                                        <span class="fa-stack">
-                                             <span style="color:#FAFAFA" class="fa fa-circle fa-stack-2x  fa-inverse"></span>
-                                             <a href="https://www.linkedin.com/in/devinsoni" class="fa fa-linkedin fa-stack-1x"></a>
-                                        </span>
-                                        <span class="fa-stack">
-                                             <span style="color:#FAFAFA" class="fa fa-circle fa-stack-2x  fa-inverse"></span>
-                                             <a href="https://medium.com/@devins" class="fa fa-medium fa-stack-1x"></a>
-                                        </span>
-                                    </h2>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12 text-center heading-pointer">
-                                <a href="javascript:void(0);" onclick=" $('body').scrollTo('#projects',{duration:1000});" style="color:#FAFAFA" class="fa fa-angle-down fa-5x"></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+
         </section>
 
 
-<!-- 	<section id="home" class="pfblock-image screen-height">
+	<section id="home" class="pfblock-image screen-height">
         <div class="home-overlay"></div>
 		<div class="intro">
-			<div class="start">Hello, my name is John Doe and I am</div>
-			<h1>Full Stack Web Developer</h1>
-			<div class="start">creating modern and responsive Web Application</div>
-		</div>
+			<!-- <div class="start ">Hello, my name is </div> -->
+			<h1 class="title-text">Nithin Murali</h1>
+			<div class=" heading icons">
+	            <h2>
+	                <span class="fa-stack">
+	                     <span style="color:#FAFAFA" class="fa fa-circle fa-stack-2x fa-inverse"></span>
+	                     <a href="mailto:imnmfotmal@gmail.com" class="fa fa-envelope fa-stack-1x "></a>
+	                </span>
+	                <span class="fa-stack">
+	                     <span style="color:#FAFAFA" class="fa fa-circle fa-stack-2x fa-inverse"></span>
+	                     <a href="https://github.com/d-soni" class="fa fa-github-alt fa-stack-1x "></a>
+	                </span>
+	                <span class="fa-stack">
+	                     <span style="color:#FAFAFA" class="fa fa-circle fa-stack-2x  fa-inverse"></span>
+	                     <a href="https://www.linkedin.com/in/devinsoni" class="fa fa-linkedin fa-stack-1x"></a>
+	                </span>
+	                <span class="fa-stack">
+	                     <span style="color:#FAFAFA" class="fa fa-circle fa-stack-2x  fa-inverse"></span>
+	                     <a href="" class="fa fa-facebook fa-stack-1x"></a>
+	                </span>
+	            </h2>
+	        </div>
+	</div>
 
         <a href="#services">
 		<div class="scroll-down">
@@ -92,7 +102,7 @@
         </a>
 
 	</section>
- -->
+
 	<!-- Home end -->
 
 	<!-- Navigation start -->
@@ -110,14 +120,14 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">John Doe</a>
+					<a class="navbar-brand" href="index.html">Nithin M</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#home">Home</a></li>
-						<li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Works</a></li>
+						<li><a href="#services">About Me</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
                         <li><a href="#skills">Skills</a></li>
 						<li><a href="#testimonials">Testimonials</a></li>
 						<li><a href="#contact">Contact</a></li>
@@ -141,10 +151,10 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">This is what I do</h2>
+						<h2 class="pfblock-title">WHO I AM</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+							Hi, I am Nithin Murali, currently pursuing Dual Degree in Electrical Engineering from IIT Bombay. This website describes more of my techincal hobby projects/ research interests. I love building stuff that creates a high level of impact.
 						</div>
 					</div>
 
@@ -156,14 +166,14 @@
 
 				<div class="col-sm-3">
 
-					<div class="iconbox wow slideInLeft">
+					<div class="papers wow slideInLeft">
 						<div class="iconbox-icon">
 							<span class="icon-magic-wand"></span>
 						</div>
 						<div class="iconbox-text">
-							<h3 class="iconbox-title">Web Design</h3>
+							<h3 class="iconbox-title">Building Technology</h3>
 							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
+								To me, the ability to build things is very important.It gives you the ability to communicate and actually 'experience' your thoughts in reality.
 							</div>
 						</div>
 					</div>
@@ -172,14 +182,30 @@
 
 				<div class="col-sm-3">
 
-					<div class="iconbox wow slideInLeft">
+					<div class="papers wow slideInLeft">
+						<div class="iconbox-icon">
+							<span class="icon-film"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Image processing</h3>
+							<div class="iconbox-desc">
+								I have been working on Image processing for a while a head of image processing AUV IITB. 
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-sm-3">
+
+					<div class="papers wow slideInRight">
 						<div class="iconbox-icon">
 							<span class="icon-puzzle"></span>
 						</div>
 						<div class="iconbox-text">
-							<h3 class="iconbox-title">Web Programming</h3>
+							<h3 class="iconbox-title">Meachine Learning</h3>
 							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
+								Meachine learning is the hottest research topic right now. I have worked on various classifires for object detection. current;y working on nural networks, especially cnn.
 							</div>
 						</div>
 					</div>
@@ -188,30 +214,14 @@
 
 				<div class="col-sm-3">
 
-					<div class="iconbox wow slideInRight">
+					<div class="papers wow slideInRight">
 						<div class="iconbox-icon">
-							<span class="icon-badge"></span>
+							<span class="icon-social-youtube"></span>
 						</div>
 						<div class="iconbox-text">
-							<h3 class="iconbox-title">Branding</h3>
+							<h3 class="iconbox-title">Movies</h3>
 							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInRight">
-						<div class="iconbox-icon">
-							<span class="icon-question"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Consultation</h3>
-							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
+								ohh , yeah movies too. i always find time watch some movies. or atleast some trailers :p
 							</div>
 						</div>
 					</div>
@@ -577,9 +587,9 @@
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/jquery.cbpQTRotator.js"></script>
 	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/shader.js"></script>
+	<script src="assets/js/shaderadd.js"></script>
 
 </body>
-<script src="assets/js/shader.js"></script>
-<script src="assets/js/shaderadd.js"></script>
 
 </html>
