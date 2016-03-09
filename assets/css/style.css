@@ -356,7 +356,6 @@ textarea.form-control {
 }
 
 .home-overlay {
-    background-color: rgba(44, 62, 80, 0.3);
     background-image: url("../images/tr.png");
     background-repeat: repeat;
     height: 100%;
@@ -406,8 +405,8 @@ textarea.form-control {
 	position: relative;
     height: 100%;
     width: 100%;
-    color: #FAFAFA;
-    animation-duration: 3s;
+    /*color: #FAFAFA;*/
+    /*animation-duration: 3s;*/
 }
 
 .heading a:link{
@@ -472,7 +471,6 @@ textarea.form-control {
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 0.3s;
-    display: none;
 }
 
 .background-container {
