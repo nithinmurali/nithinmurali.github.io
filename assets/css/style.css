@@ -369,7 +369,7 @@ textarea.form-control {
 .intro {
 	position: absolute;
 	width: 100%;
-	top: 50%;
+	top: 42%;
 	left: 0;
 	text-align: center;
 	-webkit-transform: translate(0%, -50%);
@@ -395,7 +395,7 @@ textarea.form-control {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-style: italic;
-    font-size: 7em;
+    font-size: 6em;
     text-transform: none;
     letter-spacing: -1px;
 }
@@ -479,7 +479,15 @@ textarea.form-control {
     width:100%;
 }
 
+.profile{
+	width: 17rem;
+    border: 2px solid rgba(234,97,83,.1);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+}
 
+img.rounded {
+    border-radius: 50%;
+}
 /* ---------------------------------------------- /*
  * Servise
 /* ---------------------------------------------- */
@@ -1041,7 +1049,7 @@ figure.effect-bubba:hover p {
 
 .cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
 .no-js .cbp-qtrotator .cbp-qtcontent {
-	position: relative; 
+	position: relative;
 	z-index: 100;
 	pointer-events: auto;
 	opacity: 1;
@@ -1094,7 +1102,7 @@ figure.effect-bubba:hover p {
 }
 
 /* Example for media query */
-@media screen and (max-width: 30.6em) { 
+@media screen and (max-width: 30.6em) {
 
 	.cbp-qtrotator {
 		font-size: 70%;
@@ -1105,4 +1113,3 @@ figure.effect-bubba:hover p {
 	}
 
 }
-
